@@ -53,12 +53,13 @@ main.about {
   text-align: center;
   font-size: 2vw;
   font-weight: 600;
-  color: white;
+  color: rgb(207, 203, 195);
   margin-left: 1vw;
   margin-top: 20px;
   line-height: 1.6em;
   word-spacing: .3em;
   padding: 5px;
+  background-color: black;
 }
 .home {
   width: 95vw;
