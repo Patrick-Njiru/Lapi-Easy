@@ -1,13 +1,15 @@
 body {
   width: 95vw;
   margin: auto;
-  background-color: rgb(247, 224, 224);
+  background-color: whitesmoke;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* NavBar */
 .navbar {
   background-color: green;
   height: 15vh;
@@ -29,9 +31,9 @@ body {
 a {
   color: white;
   display: inline-block;
-  /* width: 50px; */
   font-size: large;
   text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
   text-decoration: underline;
@@ -41,4 +43,31 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   width: 50vw;
+}
+
+/* Home */
+main.about {
+  border: 2px solid lime;
+  width: 45vw;
+  border-radius: 10% 5px;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 600;
+  color: white;
+  margin-left: 1vw;
+  margin-top: 20px;
+  line-height: 1.6em;
+  word-spacing: .3em;
+  padding: 5px;
+}
+.home {
+  width: 95vw;
+  height: 100vh;
+  background-image: url(./assets/b.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: -20px center;
+}
+.about h2 {
+  color: lime;
 }
