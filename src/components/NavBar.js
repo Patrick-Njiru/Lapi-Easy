@@ -6,19 +6,16 @@ function NavBar() {
         <div className="navbar">
             <h1 className="navh1">LapiEasy</h1>
             <div className="navlinks">
-              <NavLink to='/home' >
+              <NavLink to='/' >
                   Home
               </NavLink>
-              <NavLink to='/itemslist' >
+              <NavLink to='/laptops' >
                   Laptops
               </NavLink>
-              <NavLink to='/itemsdetails' >
-                  Item Details
-              </NavLink>
-              <NavLink to='/itemslist' >
+              <NavLink to='/saved' >
                   Saved
               </NavLink>
-              <NavLink to='/' >
+              <NavLink to='/sell' >
                   Sell
               </NavLink>
             </div>
