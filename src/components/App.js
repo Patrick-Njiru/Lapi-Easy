@@ -4,6 +4,7 @@ import Laptops from './Laptops';
 import NavBar from './NavBar';
 import Saved from './Saved';
 import Sell from './Sell';
+import Footer from './Footer';
 import {Routes, Route} from "react-router-dom"
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/saved' element={<Saved />} />
         <Route path='/sell' element={<Sell />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
