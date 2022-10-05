@@ -1,5 +1,10 @@
 import React, {useState, useEffect} from 'react';
+import Home from './Home';
+import Laptops from './Laptops';
 import NavBar from './NavBar';
+import Saved from './Saved';
+import Sell from './Sell';
+import {Routes, Route} from "react-router-dom"
 
 function App() {
   
@@ -13,6 +18,12 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/laptops' element={<Laptops />} />
+        <Route path='/saved' element={<Saved />} />
+        <Route path='/sell' element={<Sell />} />
+      </Routes>
     </div>
   );
 }
