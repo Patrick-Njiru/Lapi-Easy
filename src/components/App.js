@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import NavBar from './NavBar';
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <p>Hello World!</p>
+      <NavBar />
     </div>
   );
 }
