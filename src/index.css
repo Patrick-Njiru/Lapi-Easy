@@ -82,6 +82,10 @@ a.products {
   left: 63vw;
   top: -30vh;
   font-size: xx-large;
+  border-radius: 28px;
+}
+a.products:hover {
+  color: black;
 }
 
 /* Footer */
