@@ -141,3 +141,22 @@ footer span {
   display: flex;
   justify-content: space-between;
 }
+
+/* Sell */
+.sell {
+  text-align: center;
+  line-height: 3em;
+}
+form {
+  width: 50vw;
+  margin: 50px auto;
+  text-align: left;
+  border: 5px grey ridge;
+  padding-left: 20vw;
+}
+label {
+  margin-left: 30px;
+}
+.sell section h3 {
+  margin-left: 80px;
+}
