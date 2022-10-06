@@ -46,7 +46,7 @@ a:hover {
 /* Home */
 main.about {
   border: 2px solid lime;
-  width: 45vw;
+  width: 50vw;
   border-radius: 10% 5px;
   text-align: center;
   font-size: 1.7vw;
@@ -61,7 +61,7 @@ main.about {
 }
 .home {
   margin: 0;
-  height: 100vh;
+  height: 120vh;
   background-image: url(./assets/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,5 +74,16 @@ main.about {
 footer {
   background-color: rgb(31, 30, 30);
   color: wheat;
-  height: 30vh;
+  padding-bottom: 5px;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style-type: none;
+}
+footer span {
+  color: lime;
 }
