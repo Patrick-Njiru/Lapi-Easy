@@ -41,6 +41,9 @@ body {
   justify-content: space-evenly;
   width: 50vw;
 }
+.navbar a:active {
+  color: black;
+}
 
 /* Home */
 main.about {
