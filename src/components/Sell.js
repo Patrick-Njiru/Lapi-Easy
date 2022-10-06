@@ -51,7 +51,7 @@ function Sell() {
                 Condition : <input type='text' required />
               </label>
           </section>
-          <input id='submit' type='submit' value='post' />
+          <input id='submit' type='submit' value='Post' />
         </div>
       </form>
     </div>
