@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Saved from './Saved';
 import Sell from './Sell';
 import Footer from './Footer';
+import NotFound from './NotFound';
 import {Routes, Route} from "react-router-dom"
 
 function App() {
@@ -21,9 +22,10 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route path='/laptops' element={<Laptops />} />
+        <Route path='/laptops' element={<Laptops laptops={laptops} />} />
         <Route path='/saved' element={<Saved />} />
         <Route path='/sell' element={<Sell />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
