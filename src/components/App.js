@@ -11,11 +11,11 @@ import {Routes, Route} from "react-router-dom"
 function App() {
   
   const [laptops, setLaptops] = useState([])
-  const API = 'https://patrick-ecommerce-server.herokuapp.com/laptops'
+  const API = 'https://patrick-ecommerce-server.herokuapp.com/laptops' // my deployed json-server
 
   useEffect(() => {
     fetch(API).then(res=> res.json()).then(data => setLaptops(data)).catch(console.log)
-  }, [])
+  }, [laptops])
 
   return (
     <div>
@@ -24,7 +24,7 @@ function App() {
         <Route exact path='/' element={<Home />} />
         <Route path='/laptops' element={<Laptops laptops={laptops} />} />
         <Route path='/saved' element={<Saved />} />
-        <Route path='/sell' element={<Sell />} />
+        <Route path='/sell' element={<Sell API={API} setLaptops={setLaptops} />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />

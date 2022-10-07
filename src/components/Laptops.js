@@ -8,13 +8,13 @@ function Laptops({ laptops }) {
             <main key={laptop.id}>
                 <img src={laptop.image} alt={laptop.name} />
                 <h4> 
-                    <span>{laptop.name}</span>
+                    <span>{laptop.model}</span>
                     <span>Ksh. {laptop.price}</span>
-                    <span>{laptop.specifications.condition}</span>
+                    <span>{laptop.condition}</span>
                 </h4>
                 <div className='buttons'>
                 <button>save / unsave</button>
-                <button>More details</button>
+                <button>Details</button>
                 </div>
             </main>
             <LaptopDetails key={laptop.id} laptop={laptop} />

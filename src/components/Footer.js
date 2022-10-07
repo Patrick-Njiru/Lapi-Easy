@@ -37,10 +37,10 @@ function Footer() {
         <div>
             <p> &copy; 2022 LapiEasy, Kenya. All rights reserved.</p>
             <p>
-                <i class="fa-brands fa-facebook"></i> &nbsp; 
-                <i class="fa-brands fa-instagram"></i> &nbsp;
-                <i class="fa-brands fa-twitter"></i> &nbsp;
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-facebook"></i> &nbsp; 
+                <i className="fa-brands fa-instagram"></i> &nbsp;
+                <i className="fa-brands fa-twitter"></i> &nbsp;
+                <i className="fa-brands fa-linkedin"></i>
             </p>
         </div>
         
