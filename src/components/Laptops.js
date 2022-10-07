@@ -1,11 +1,11 @@
 import React from 'react'
-import LaptopDetails from './LaptopDetails'
+// import LaptopDetails from './LaptopDetails'
 
 function Laptops({ laptops }) {
 
     const laptop = laptops.map(laptop => (
-        <div id='laptop_sections'>
-            <main key={laptop.id}>
+        <div key={laptop.id} id='laptop_sections'>
+            <main>
                 <img src={laptop.image} alt={laptop.name} />
                 <h4> 
                     <span>{laptop.model}</span>
@@ -17,15 +17,15 @@ function Laptops({ laptops }) {
                 <button>Details</button>
                 </div>
             </main>
-            <LaptopDetails key={laptop.id} laptop={laptop} />
+            {/* <LaptopDetails key={laptop.id} laptop={laptop} /> */}
         </div>   
      ))
 
-  return (
-    <div className='laptops'>
-        <h1>Available products</h1>
-        {laptop}
-    </div>
+    return (
+        <div className='laptops'>
+            <h1>Available products</h1>
+            {laptop}
+        </div>
   )
 }
 

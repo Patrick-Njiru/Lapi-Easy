@@ -27,7 +27,7 @@ function Sell({ setLaptops, API }) {
       sellerContact: formData.sellerContact,
       sellerStoreAddress: formData.sellerStoreAddress,
       model: formData.model,
-      image: formData.image,
+      image: formData.image.split(" ").join("-"),
       price: formData.price,
       operatingSystem: formData.operatingSystem,
       ram: formData.ram,
@@ -59,6 +59,7 @@ function Sell({ setLaptops, API }) {
       processor: '',
       graphicsCard: '',
       storageType: '',
+      storageCapacity: '',
       displaySize: '',
       color: '',
       condition: ''
@@ -103,10 +104,11 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Picture : 
+                Upload Picture : 
                 <input 
                 type='file' 
-                name='image' 
+                name='image'
+                accept="image/*"
                 required 
                 onChange={handleChange} 
                 />
