@@ -12,9 +12,6 @@ function NavBar() {
               <NavLink to='/laptops' >
                   Laptops
               </NavLink>
-              <NavLink to='/saved' >
-                  Saved
-              </NavLink>
               <NavLink to='/sell' >
                   Sell
               </NavLink>
