@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 function Sell({ setLaptops, API }) {
-  const [formData, setFormData] = useState({
+
+  const [form, setForm] = useState({
     sellerContact: null,
     sellerStoreAddress: "",
     model: "",
@@ -18,26 +19,26 @@ function Sell({ setLaptops, API }) {
     condition: ''
   })
 
-  const handleChange = e => setFormData({ ...formData, [e.target.name]: e.target.value})
+  const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value})
 
   function handleSubmit(e) {
     e.preventDefault()
 
     const updatedForm = {
-      sellerContact: formData.sellerContact,
-      sellerStoreAddress: formData.sellerStoreAddress,
-      model: formData.model,
-      image: formData.image.split(" ").join("-"),
-      price: formData.price,
-      operatingSystem: formData.operatingSystem,
-      ram: formData.ram,
-      processor: formData.processor,
-      graphicsCard: formData.graphicsCard,
-      storageType: formData.storageType,
-      storageCapacity: formData.storageCapacity,
-      displaySize: formData.displaySize,
-      color: formData.color,
-      condition: formData.condition
+      sellerContact: form.sellerContact,
+      sellerStoreAddress: form.sellerStoreAddress,
+      model: form.model,
+      image: form.image.split(" ").join("-"),
+      price: form.price,
+      operatingSystem: form.operatingSystem,
+      ram: form.ram,
+      processor: form.processor,
+      graphicsCard: form.graphicsCard,
+      storageType: form.storageType,
+      storageCapacity: form.storageCapacity,
+      displaySize: form.displaySize,
+      color: form.color,
+      condition: form.condition
     }
 
     fetch(API, {
@@ -48,7 +49,7 @@ function Sell({ setLaptops, API }) {
     .then(res => res.json()).then(laptops => setLaptops(laptops))
     .catch(console.log)
 
-    setFormData({
+    setForm({
       sellerContact: null,
       sellerStoreAddress: "",
       model: "",
@@ -69,7 +70,7 @@ function Sell({ setLaptops, API }) {
   return (
     <div className='sell'>
       <h2>Fill the following details about your product and submit to post it. </h2>
-      <form onSubmit={handleSubmit}>
+      <form action='' onSubmit={handleSubmit}>
         <div>
           <section>
             <h3>Your Details</h3>
@@ -202,12 +203,12 @@ function Sell({ setLaptops, API }) {
                 />
               </label>
           </section>
+        </div>
           <input 
           id='submit' 
           type='submit' 
-          value='Post'  
+          value='submit'  
           />
-        </div>
       </form>
     </div>
   )
