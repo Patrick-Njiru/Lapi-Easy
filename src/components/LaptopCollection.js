@@ -1,6 +1,8 @@
 import React from 'react'
+import LaptopDetails from './LaptopDetails'
 
 function LaptopCollection({ laptops }) {
+
 
     const allLaptops = laptops.map(laptop => (
         <div id='laptop_sections'>
@@ -13,9 +15,7 @@ function LaptopCollection({ laptops }) {
             </h4>
             <h4> Contact Seller : {laptop.sellerContact} </h4>
             <details>
-                    <p>
-                        {/* fhhisis */}
-                    </p>
+                <LaptopDetails key={laptop.id} laptop={laptop} />   
             </details>
         </main>
     </div>
