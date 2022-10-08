@@ -75,7 +75,7 @@ function Sell({ setLaptops, API }) {
           <section>
             <h3>Your Details</h3>
               <label> 
-                Contact(format - 07XXXXXXXX / +2547XXXXXXXX) : 
+                Contact(format - 07XXXXXXXX / +2547XXXXXXXX) : &nbsp; 
                 <input 
                 type='tel' 
                 minLength='10'
@@ -85,7 +85,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Store Address : 
+                Store Address : &nbsp;
                 <input 
                 name='sellerStoreAddress' 
                 type='text' 
@@ -96,7 +96,7 @@ function Sell({ setLaptops, API }) {
           <section>
               <h3>Laptop Details</h3>
               <label> 
-                Name / Model : 
+                Name / Model : &nbsp;
                 <input 
                 type='text' 
                 name='model' 
@@ -105,17 +105,19 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Upload Picture : 
+                Upload Image Url : &nbsp; 
                 <input 
-                type='file' 
+                type='url' 
                 name='image'
-                accept="image/*"
+                placeholder="https://website.com/image"
+                pattern ="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)(.jpg|.png|.gif)"
                 required 
+                style={{width: "300px"}}
                 onChange={handleChange} 
                 />
               </label> <br />
               <label>
-                Price(Ksh) : 
+                Price(Ksh) : &nbsp;
                 <input 
                 type='number' 
                 name='price' 
@@ -124,7 +126,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label>
-                Operating System : 
+                Operating System : &nbsp;
                 <input 
                 type='text'
                 name='operatingSystem' 
@@ -133,7 +135,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                RAM : 
+                RAM : &nbsp;
                 <input 
                 type='text'
                 name='ram' 
@@ -142,7 +144,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Processor : 
+                Processor : &nbsp;
                 <input 
                 type='text'
                 name='processor' 
@@ -151,7 +153,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Graphics Card : 
+                Graphics Card : &nbsp;
                 <input 
                 type='text'
                 name='graphicsCard' 
@@ -160,7 +162,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Storage Type : 
+                Storage Type : &nbsp;
                 <input 
                 type='text'
                 name='storageType' 
@@ -169,7 +171,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Storage Capacity : 
+                Storage Capacity : &nbsp;
                 <input 
                 type='text'
                 name='storageCapacity' 
@@ -178,7 +180,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Display Size(inch) : 
+                Display Size(inch) : &nbsp;
                 <input 
                 type='text'
                 name='displaySize' 
@@ -187,7 +189,7 @@ function Sell({ setLaptops, API }) {
                 />
               </label> <br />
               <label> 
-                Color : 
+                Color : &nbsp;
                 <input 
                 type='text'
                 name='color' 
@@ -195,7 +197,7 @@ function Sell({ setLaptops, API }) {
                  />
               </label> <br />
               <label> 
-                Condition of Laptop: 
+                Condition of Laptop: &nbsp;
                 <input 
                 type='text'
                 name='condition' 
