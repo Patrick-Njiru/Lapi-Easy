@@ -4,7 +4,7 @@
 
 # Description
 
-####
+#### A site for college and university students to find brand new or second-hand laptops conveniently and at good affordable prices . It connects students with sellers based on their locations and provides contact info of the sellers thus enabling students to negotiate with sellers on prices. The platform also provides anyone with an opportunity to post their laptop if they want to sell it, be it new or used.
 
 # Installation
 
@@ -12,11 +12,25 @@
 #### - A computer or smartphone and,
 #### - Internet access.
 
+## Setup Instructions
+
+#### 1. Create a local repo where you want to add this project.
+#### 2. Clone this repo into this folder via the terminal by running one of the following commands:
+
+#### `git clone https://github.com/Patrick-Njiru/my-ecommerce-app.git`,
+#### `git clone git@github.com:Patrick-Njiru/my-ecommerce-app.git`,
+####  `gh repo clone Patrick-Njiru/my-ecommerce-app` or,
+#### download the zip folder provided and unzip it in your machine.
+
+#### 3. navigate to the newly created folder 'my-eccommerce-app' via the terminal and run `npm-start` to view the page in the browser. If you had downloaded the zip folder, navigate to the unzipped version of this folder via the terminal and do the same.
+#### 4. This will enable you to view have the entire project in your machine. To make this project a part of your github repo so you can edit it, first fork this repo, then repeat the above process.
+#### 5. To visit the page directly, visit the LIVE LINK provided below.
+
 # Technologies Used
 
-#### 1. HTML - To create the page structure.
-#### 2. CSS - To style the HTML page by adding colors that blend well with each other and allowing the page to display properly on large screens as well as small screens.
-#### 3. JavaScript - To make the page interactive by fetching data from API and displaying it in the webpage and allowing users to add comments.
+#### 1. HTML.
+#### 2. CSS.
+#### 3. React.js
 
 ## Live Link - [https://patrick-njiru-lapi-easy.netlify.app/](https://patrick-njiru-lapi-easy.netlify.app/)
 
