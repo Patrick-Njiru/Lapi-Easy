@@ -175,3 +175,20 @@ label {
 #submit:active {
   color: black;
 }
+
+/* LaptopDetails */
+.firstP {
+  color: white;
+  font-weight: bold;
+}
+.secondP {
+  font-style: oblique;
+}
+.specs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.specs section {
+  width: 40%;
+}
