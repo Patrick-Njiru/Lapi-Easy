@@ -110,7 +110,9 @@ footer span {
 /* Laptops */
 .laptops{
   margin: 50px 0 50px 30px;
-  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .laptops h4 {
   display: flex;
@@ -120,14 +122,16 @@ footer span {
   width: 40vw;
   border-radius: 10px;
 }
-.buttons {
-  display: flex;
-  justify-content: space-between;
-}
-.buttons button {
+.button {
   background-color: limegreen;
   font-size: 1em;
+  margin: 5px 0 5px 65%;
 }
+
+details {
+  color: limegreen;
+}
+
 .laptops main {
   margin-bottom: 30px;
   border: 2px grey solid;
@@ -137,7 +141,7 @@ footer span {
   background-color: rgb(31, 30, 30);
   color: white;
 }
-#laptop_sections {
+.laptop_sections {
   display: flex;
   justify-content: space-between;
 }
