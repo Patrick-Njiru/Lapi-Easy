@@ -7,7 +7,7 @@
 #### A site for college and university students to find brand new or second-hand laptops conveniently and at good affordable prices . It connects students with sellers based on their locations and provides contact info of the sellers thus enabling students to negotiate with sellers on prices. The platform also provides anyone with an opportunity to post their laptop if they want to sell it, be it new or used.
 
 ![laptops page](https://i.ibb.co/YZcqxjs/Screenshot-from-2022-10-08-21-11-21.png)
-![laptop details](https://i.ibb.co/qLHNQjb/Screenshot-from-2022-10-08-21-58-27.png)
+![laptop details](https://i.ibb.co/XtmKQB5/details.png)
 
 # Installation
 
