@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LaptopCollection({ laptops, handleClick }) {
+function LaptopCollection({ laptops }) {
 
     const allLaptops = laptops.map(laptop => (
         <div id='laptop_sections'>
@@ -12,14 +12,7 @@ function LaptopCollection({ laptops, handleClick }) {
                 <span>{laptop.condition}</span>
             </h4>
             <h4> Contact Seller : {laptop.sellerContact} </h4>
-            <button 
-              className='button' 
-              key={laptop.id} 
-              onClick={() => handleClick(laptop.id)}
-            >
-                save/unsave
-            </button> 
-            <details >
+            <details>
                     <p>
                         {/* fhhisis */}
                     </p>
