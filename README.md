@@ -18,7 +18,7 @@
 #### 2. CSS - To style the HTML page by adding colors that blend well with each other and allowing the page to display properly on large screens as well as small screens.
 #### 3. JavaScript - To make the page interactive by fetching data from API and displaying it in the webpage and allowing users to add comments.
 
-## Live Link - 
+## Live Link - [https://patrick-njiru-lapi-easy.netlify.app/](https://patrick-njiru-lapi-easy.netlify.app/)
 
 # License
 
