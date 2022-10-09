@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# LapiEasy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### By Patrick Njiru
 
-## Available Scripts
+# Description
 
-In the project directory, you can run:
+#### A site for college and university students to find brand new or second-hand laptops conveniently and at good affordable prices . It connects students with sellers based on their locations and provides contact info of the sellers thus enabling students to negotiate with sellers on prices. The platform also provides anyone with an opportunity to post their laptop if they want to sell it, be it new or used.
 
-### `npm start`
+![laptops page](https://i.ibb.co/YZcqxjs/Screenshot-from-2022-10-08-21-11-21.png)
+![laptop details](https://i.ibb.co/XtmKQB5/details.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requirements
+#### - A computer or smartphone and,
+#### - Internet access.
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 1. Create a local repo where you want to add this project.
+#### 2. Clone this repo into this folder via the terminal by running one of the following commands:
 
-### `npm run build`
+#### `git clone https://github.com/Patrick-Njiru/my-ecommerce-app.git`,
+#### `git clone git@github.com:Patrick-Njiru/my-ecommerce-app.git`,
+####  `gh repo clone Patrick-Njiru/my-ecommerce-app` or,
+#### download the zip folder provided and unzip it in your machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 3. navigate to the newly created folder 'my-eccommerce-app' via the terminal and run `npm-start` to view the page in the browser. If you had downloaded the zip folder, navigate to the unzipped version of this folder via the terminal and do the same.
+#### 4. This will enable you to view have the entire project in your machine. To make this project a part of your github repo so you can edit it, first fork this repo, then repeat the above process.
+#### 5. To visit the page directly, visit the LIVE LINK provided below.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 1. HTML.
+#### 2. CSS.
+#### 3. React.js
 
-### `npm run eject`
+# Live Link  
+### [https://patrick-njiru-lapi-easy.netlify.app/](https://patrick-njiru-lapi-easy.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Copyright (c) [2022] [Patrick Njiru]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-## Learn More
+#### THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Author Info
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### linkedIn - [Patrick Njiru](httpswwwlinkedincominpatricknjiru7569241ba)
