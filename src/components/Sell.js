@@ -4,6 +4,7 @@ function Sell({ setLaptops, API }) {
 
   const [form, setForm] = useState({
     sellerContact: null,
+    sellerLocation: "",
     sellerStoreAddress: "",
     model: "",
     image: "",
@@ -26,6 +27,7 @@ function Sell({ setLaptops, API }) {
 
     const updatedForm = {
       sellerContact: form.sellerContact,
+      sellerLocation: form.sellerLocation,
       sellerStoreAddress: form.sellerStoreAddress,
       model: form.model,
       image: form.image,
@@ -51,6 +53,7 @@ function Sell({ setLaptops, API }) {
 
     setForm({
       sellerContact: null,
+      sellerLocation: "",
       sellerStoreAddress: "",
       model: "",
       image: "",
@@ -81,17 +84,28 @@ function Sell({ setLaptops, API }) {
                 minLength='10'
                 name='sellerContact' 
                 required 
-                placeholder='0712345678'
+                placeholder='07123...'
                 onChange={handleChange}
                 />
               </label> <br />
               <label> 
-                Store Address : &nbsp;
+                Location : &nbsp;
                 <input 
-                name='sellerStoreAddress' 
+                name='sellerLocation' 
                 type='text' 
+                required
+                placeholder='county, city or town'
                 onChange={handleChange} 
                 />
+              </label> <br />
+              <label> 
+                Store Address : &nbsp;
+                <textarea 
+                  name='sellerStoreAddress' 
+                  onChange={handleChange}
+                  placeholder="store name and/or street address..."
+                >
+                </textarea>
               </label>
           </section>
           <section>
@@ -107,15 +121,14 @@ function Sell({ setLaptops, API }) {
               </label> <br />
               <label> 
                 Upload Image Url : &nbsp; 
-                <input 
-                type='url' 
-                name='image'
-                placeholder="https://website.com/image"
-                pattern ="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)(.jpg|.png|.gif)"
-                required 
-                style={{width: "300px"}}
-                onChange={handleChange} 
-                />
+                <textarea 
+                  name='image'
+                  placeholder="https://website.com/image"
+                  pattern ="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)(.jpg|.png|.gif)"
+                  required
+                  onChange={handleChange}
+                >
+                </textarea>
               </label> <br />
               <label>
                 Price(Ksh) : &nbsp;
@@ -202,6 +215,7 @@ function Sell({ setLaptops, API }) {
                 <input 
                 type='text'
                 name='condition' 
+                required
                 onChange={handleChange} 
                 />
               </label>

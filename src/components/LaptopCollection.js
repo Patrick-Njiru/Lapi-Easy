@@ -13,7 +13,14 @@ function LaptopCollection({ laptops }) {
                 <span>Ksh. {laptop.price}</span>
                 <span>{laptop.condition}</span>
             </h4>
-            <h4> Contact Seller : {laptop.sellerContact} </h4>
+            <h4> 
+                <span>
+                    Contact Seller : &nbsp; <i>{laptop.sellerContact}</i> 
+                </span>
+                <span>
+                    Location: &nbsp; <i>{laptop.sellerLocation}</i> 
+                </span>
+            </h4>
             <details>
                 <LaptopDetails key={laptop.id} laptop={laptop} />   
             </details>
