@@ -28,7 +28,7 @@ function Sell({ setLaptops, API }) {
       sellerContact: form.sellerContact,
       sellerStoreAddress: form.sellerStoreAddress,
       model: form.model,
-      image: form.image.split(" ").join("-"),
+      image: form.image,
       price: form.price,
       operatingSystem: form.operatingSystem,
       ram: form.ram,
