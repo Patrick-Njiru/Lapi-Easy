@@ -75,12 +75,13 @@ function Sell({ setLaptops, API }) {
           <section>
             <h3>Your Details</h3>
               <label> 
-                Contact(format - 07XXXXXXXX / +2547XXXXXXXX) : &nbsp; 
+                Contact : &nbsp; 
                 <input 
                 type='tel' 
                 minLength='10'
                 name='sellerContact' 
                 required 
+                placeholder='0712345678'
                 onChange={handleChange}
                 />
               </label> <br />
