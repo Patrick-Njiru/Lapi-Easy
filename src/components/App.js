@@ -11,7 +11,7 @@ function App() {
   
   const [laptops, setLaptops] = useState([])
 
-  const API = 'https://patrick-ecommerce-server.herokuapp.com/laptops' // my deployed json-server
+  const API = 'http://localhost:3000/laptops' // my deployed json-server is not functional anymore
 
   useEffect(() => {
     fetch(API).then(res=> res.json()).then(data => setLaptops(data)).catch(console.log)
